@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+}
+html, body {
+    height: 100%;
+    width: 100%;    
+}
+.navbar {
+    opacity: .9;
+    background-color: grey;
+}
+
+#cover {
+    height: 100%;
+    background:url(assets/Background.jfif) no-repeat top center;
+    background-size: cover;
+    filter: brightness(65%);
+
+}
+
+.brand{
+    padding-top: 35vh;
+}
+.brand h1 {
+    font-family: 'Dancing Script', 'Times New Roman', Times, serif;
+    font-size: 500%;
+    color: transparent;
+    background: linear-gradient(to top left, rgb(0, 242, 250), rgb(74, 255, 2));
+    -webkit-background-clip: text;
+}
+.brand h2
+{
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+.brand button {
+    margin: 0 1rem;
+    box-shadow: black 2px 2px 10px;
+}
+
+#headshot {
+    border-radius: 25%;
+    box-shadow: 2px 2px 20px black;
+    max-height: 400px;
+}
+#HTML-CSS-Box {
+    height: 100px;
+    padding: 0px 20px;
+}
+
+#HTML-CSS-Box img {
+    min-width: 80px;
+}
+
+.title {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-top: 55px;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.card {
+    height: auto;
+    padding-bottom: 1rem;;
+    margin-top: 1rem;
+    min-height: 500px;
+}
+
+.card-img-top {
+    height: auto;
+    max-height: 200px;
+}
+
+#formBox {
+    border: 1px solid black;
+    padding: 2rem;
+    background-color: rgba(121, 163, 165, 0.144);
+    border-radius: 1rem;
+    max-width: 300px;
+    margin: auto;
+}
+
+footer {
+    background-color: #1f1f1fc5;
+    color: rgb(167, 167, 167);
+    padding-bottom: 1rem;   
+    padding-left: 1rem; 
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+}
+
+footer a:hover{
+    color: black;
+    text-decoration: none;
+}
